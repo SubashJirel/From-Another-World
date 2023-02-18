@@ -1,0 +1,42 @@
+/*reset css*/
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*header section css*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    /* border: 2px solid red; */
+    background-color: #231f20;
+    align-items: center;
+    margin-top: 0;
+    /* flex-wrap: wrap; */
+}
+
+a {
+    text-decoration: none;
+    font-size: larger;
+    color: #F9FAF8;
+    flex: 0 0 auto; /*so that links doesn't squeeze when div is small*/
+    text-decoration: none;
+}
+.logo {
+    height: 150px;
+    width: 250px;
+}
+
+.right {
+    display: flex;
+    /*margin-left: auto; pushes box to right*/
+    gap: 25px;
+    /* border: 2px solid red; */
+    padding-bottom: 90px;
+    margin-right: 20px;
+}
